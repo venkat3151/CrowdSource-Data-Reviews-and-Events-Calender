@@ -1,0 +1,81 @@
+ #jumbo{
+     background-color: #000000;
+     color:white;
+     height:200px;
+ }
+ #textInJumbo{
+    padding: 50px 100px 50px 100px;
+    text-align: center;
+ }
+
+ .flip-card {
+    background-color: transparent;
+    width: 200px;
+    height:200px;
+    perspective: 1000px;
+    margin-left: 4%;
+    float:left;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  
+  .flip-card-back {
+    background-color: #000000;
+    color: white;
+    transform: rotateY(180deg);
+    z-index: 1;
+  }
+  .flip-card-back p{
+ 
+        color: white;
+        padding: 40px 5px 5px 20px;
+    
+   
+  }
+  #footer{ background: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+
+ .heading {
+margin-top: 3%;
+  margin-bottom: 3%;
+  background: #f7f9f9;
+  padding-right: 15px;
+  padding-left: 15px;
+
+ 
+}
+ .scroll {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 100%;
+    height: 200px;
+   }
+ .input_fields_wrap{
+margin-left:1px;
+ }

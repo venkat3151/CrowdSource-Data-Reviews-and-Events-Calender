@@ -1,0 +1,126 @@
+
+.login{
+  margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.center{
+ 
+   margin-top: 3%;
+  margin-bottom: 3%;
+}
+  #footer{ background: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+
+ .heading {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  background: #ffffff;/*
+  padding-right: 15px;
+  padding-left: 15px;*/
+
+ 
+}
+ .scroll {
+    background: transparent;
+    border:1px solid #000;
+    border-radius: 10px;
+    width: 100%;
+    height: 150px;
+    margin-bottom:5%;
+    padding:1%;
+   }
+
+ .input_fields_wrap{
+margin-left:1px;
+ }
+ .description p{
+  line-height: 3rem;
+  text-align: justify;
+ }
+  .description h4{
+  line-height: 3rem;
+  text-align: center;
+ }
+ #studentform{
+  padding: 5%;
+    /*background-image: radial-gradient(circle, white, #ffffff, #e5e5e5);*/
+    border: dashed;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+ }
+
+ #jumboicon{
+  font-size:10rem;
+ }
+
+.nav-row{
+  background-image: linear-gradient(-120deg, #000, white);
+  padding: 0.5%;
+}
+.navbutton a{
+   color: black;
+    font-size: large;
+    font-weight: 600;
+    padding: 10px;
+    border-right: 1px solid #000;
+}
+
+.jumbotron h2{
+  letter-spacing: 5px;
+}
+.error{
+  text-align: center;
+  color:red;
+}
+
+#datasetsAll a{
+  color:#000;
+}
+#bujjiForm{
+  color:white;
+  background: #002c58;
+  padding:2%;
+}
+#bujjiForm a{
+  color:white;
+}
+#bujjiForm a:hover{
+  color:white;
+}
+
+#outerdetails{
+  padding: 0 0 0 5%;
+}
+#details{
+/* padding: 5%; */
+background: #002c58;
+
+text-align: center;
+}
+#details a{
+color:white;
+font-weight:600;
+padding:5%;
+line-height: 7rem;
+  }
+  #details p{
+    color:white;
+    font-size:large;
+    padding:5%;
+    line-height: 7rem;
+    border-bottom:1px solid #fff;
+      }
+  #details a:hover{
+    color:#002c58;
+   background: white;
+font-weight:600;
+padding:5%;
+text-decoration: none;
+
+      }
